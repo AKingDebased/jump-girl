@@ -1,31 +1,30 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Jumping : MonoBehaviour {
+public class Player : MonoBehaviour {
 
 	public float jumpPower = 1.0f;
-	public float bodyToGround = .6f;
+	public LayerMask groundLayer;
 	
 	private Rigidbody2D rigidBody;
 	private bool isGrounded;
-	private int groundLayer;
 	private Animator anim;
+	private Collider2D collider;
 
 	void Start () {
+		collider = GetComponent<Collider2D>();
 		rigidBody = GetComponent<Rigidbody2D>();
 		anim = GetComponent<Animator>();
-		groundLayer = LayerMask.NameToLayer("ground");
 	}
 
 	void Update(){
-		RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down,bodyToGround);
-		isGrounded = (hit.collider != null);
+		isGrounded = Physics2D.IsTouchingLayers(collider,groundLayer);
 		anim.SetBool("isGrounded",isGrounded);
 	}
 
 	void FixedUpdate () {
 		if(Input.GetKeyDown("space") && isGrounded){
-			rigidBody.AddForce(Vector2.up * jumpPower);
+			rigidBody.velocity = new Vector2(rigidBody.velocity.x,jumpPower);
 		}
 	}
 }

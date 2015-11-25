@@ -1,0 +1,788 @@
+fileFormatVersion: 2
+guid: 117132c8a68cf494889e07add051787a
+timeCreated: 1448488944
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: spritesheet_players_0
+    21300002: spritesheet_players_1
+    21300004: spritesheet_players_2
+    21300006: spritesheet_players_3
+    21300008: spritesheet_players_4
+    21300010: spritesheet_players_5
+    21300012: spritesheet_players_6
+    21300014: spritesheet_players_7
+    21300016: spritesheet_players_8
+    21300018: spritesheet_players_9
+    21300020: spritesheet_players_10
+    21300022: spritesheet_players_11
+    21300024: spritesheet_players_12
+    21300026: spritesheet_players_13
+    21300028: spritesheet_players_14
+    21300030: spritesheet_players_15
+    21300032: spritesheet_players_16
+    21300034: spritesheet_players_17
+    21300036: spritesheet_players_18
+    21300038: spritesheet_players_19
+    21300040: spritesheet_players_20
+    21300042: spritesheet_players_21
+    21300044: spritesheet_players_22
+    21300046: spritesheet_players_23
+    21300048: spritesheet_players_24
+    21300050: spritesheet_players_25
+    21300052: spritesheet_players_26
+    21300054: spritesheet_players_27
+    21300056: spritesheet_players_28
+    21300058: spritesheet_players_29
+    21300060: spritesheet_players_30
+    21300062: spritesheet_players_31
+    21300064: spritesheet_players_32
+    21300066: spritesheet_players_33
+    21300068: spritesheet_players_34
+    21300070: spritesheet_players_35
+    21300072: spritesheet_players_36
+    21300074: spritesheet_players_37
+    21300076: spritesheet_players_38
+    21300078: spritesheet_players_39
+    21300080: spritesheet_players_40
+    21300082: spritesheet_players_41
+    21300084: spritesheet_players_42
+    21300086: spritesheet_players_43
+    21300088: spritesheet_players_44
+    21300090: spritesheet_players_45
+    21300092: spritesheet_players_46
+    21300094: spritesheet_players_47
+    21300096: spritesheet_players_48
+    21300098: spritesheet_players_49
+    21300100: spritesheet_players_50
+    21300102: spritesheet_players_51
+    21300104: spritesheet_players_52
+    21300106: spritesheet_players_53
+    21300108: spritesheet_players_54
+    21300110: bomb.png
+    21300112: bombWhite.png
+    21300114: boxCoin.png
+    21300116: boxCoin_boxed.png
+    21300118: boxCoin_disabled.png
+    21300120: boxCoin_disabled_boxed.png
+    21300122: boxCrate.png
+    21300124: boxCrate_double.png
+    21300126: boxCrate_single.png
+    21300128: boxCrate_warning.png
+    21300130: boxExplosive.png
+    21300132: boxExplosive_disabled.png
+    21300134: boxExplosive_used.png
+    21300136: boxItem.png
+    21300138: boxItem_boxed.png
+    21300140: boxItem_disabled.png
+    21300142: boxItem_disabled_boxed.png
+    21300144: brickBrown.png
+    21300146: brickGrey.png
+    21300148: bridgeA.png
+    21300150: bridgeB.png
+    21300152: bush.png
+    21300154: cactus.png
+    21300156: chain.png
+    21300158: doorClosed_mid.png
+    21300160: doorClosed_top.png
+    21300162: doorOpen_mid.png
+    21300164: doorOpen_top.png
+    21300166: fence.png
+    21300168: fenceBroken.png
+    21300170: grass.png
+    21300172: ladderMid.png
+    21300174: ladderTop.png
+    21300176: lava.png
+    21300178: lavaTop_high.png
+    21300180: lavaTop_low.png
+    21300182: leverLeft.png
+    21300184: leverMid.png
+    21300186: leverRight.png
+    21300188: lockBlue.png
+    21300190: lockGreen.png
+    21300192: lockRed.png
+    21300194: lockYellow.png
+    21300196: mushroomBrown.png
+    21300198: mushroomRed.png
+    21300200: plantPurple.png
+    21300202: rock.png
+    21300204: sign.png
+    21300206: signExit.png
+    21300208: signLeft.png
+    21300210: signRight.png
+    21300212: snow.png
+    21300214: spikes.png
+    21300216: spring.png
+    21300218: sprung.png
+    21300220: switchBlue.png
+    21300222: switchBlue_pressed.png
+    21300224: switchGreen.png
+    21300226: switchGreen_pressed.png
+    21300228: switchRed.png
+    21300230: switchRed_pressed.png
+    21300232: switchYellow.png
+    21300234: switchYellow_pressed.png
+    21300236: torch1.png
+    21300238: torch2.png
+    21300240: torchOff.png
+    21300242: water.png
+    21300244: waterTop_high.png
+    21300246: waterTop_low.png
+    21300248: weight.png
+    21300250: weightAttached.png
+    21300252: window.png
+    21300254: alienBeige_climb1.png
+    21300256: alienBeige_climb2.png
+    21300258: alienBeige_duck.png
+    21300260: alienBeige_front.png
+    21300262: alienBeige_hit.png
+    21300264: alienBeige_jump.png
+    21300266: alienBeige_stand.png
+    21300268: alienBeige_swim1.png
+    21300270: alienBeige_swim2.png
+    21300272: alienBeige_walk1.png
+    21300274: alienBeige_walk2.png
+    21300276: alienBlue_climb1.png
+    21300278: alienBlue_climb2.png
+    21300280: alienBlue_duck.png
+    21300282: alienBlue_front.png
+    21300284: alienBlue_hit.png
+    21300286: alienBlue_jump.png
+    21300288: alienBlue_stand.png
+    21300290: alienBlue_swim1.png
+    21300292: alienBlue_swim2.png
+    21300294: alienBlue_walk1.png
+    21300296: alienBlue_walk2.png
+    21300298: alienGreen_climb1.png
+    21300300: alienGreen_climb2.png
+    21300302: alienGreen_duck.png
+    21300304: alienGreen_front.png
+    21300306: alienGreen_hit.png
+    21300308: alienGreen_jump.png
+    21300310: alienGreen_stand.png
+    21300312: alienGreen_swim1.png
+    21300314: alienGreen_swim2.png
+    21300316: alienGreen_walk1.png
+    21300318: alienGreen_walk2.png
+    21300320: alienPink_climb1.png
+    21300322: alienPink_climb2.png
+    21300324: alienPink_duck.png
+    21300326: alienPink_front.png
+    21300328: alienPink_hit.png
+    21300330: alienPink_jump.png
+    21300332: alienPink_stand.png
+    21300334: alienPink_swim1.png
+    21300336: alienPink_swim2.png
+    21300338: alienPink_walk1.png
+    21300340: alienPink_walk2.png
+    21300342: alienYellow_climb1.png
+    21300344: alienYellow_climb2.png
+    21300346: alienYellow_duck.png
+    21300348: alienYellow_front.png
+    21300350: alienYellow_hit.png
+    21300352: alienYellow_jump.png
+    21300354: alienYellow_stand.png
+    21300356: alienYellow_swim1.png
+    21300358: alienYellow_swim2.png
+    21300360: alienYellow_walk1.png
+    21300362: alienYellow_walk2.png
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: -1
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 128
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: alienBeige_climb1.png
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1280
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alienBeige_climb2.png
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1536
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alienBeige_duck.png
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1792
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alienBeige_front.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alienBeige_hit.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alienBeige_jump.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alienBeige_stand.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alienBeige_swim1.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alienBeige_swim2.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alienBeige_walk1.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alienBeige_walk2.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1792
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alienBlue_climb1.png
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1024
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alienBlue_climb2.png
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alienBlue_duck.png
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alienBlue_front.png
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1024
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alienBlue_hit.png
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1280
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alienBlue_jump.png
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1536
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alienBlue_stand.png
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1792
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alienBlue_swim1.png
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alienBlue_swim2.png
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alienBlue_walk1.png
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alienBlue_walk2.png
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alienGreen_climb1.png
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1024
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alienGreen_climb2.png
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1280
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alienGreen_duck.png
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1536
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alienGreen_front.png
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1792
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alienGreen_hit.png
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alienGreen_jump.png
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alienGreen_stand.png
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alienGreen_swim1.png
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alienGreen_swim2.png
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1024
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alienGreen_walk1.png
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1280
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alienGreen_walk2.png
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1536
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alienPink_climb1.png
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1792
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alienPink_climb2.png
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alienPink_duck.png
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alienPink_front.png
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alienPink_hit.png
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alienPink_jump.png
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alienPink_stand.png
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1280
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alienPink_swim1.png
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1536
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alienPink_swim2.png
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1792
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alienPink_walk1.png
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alienPink_walk2.png
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alienYellow_climb1.png
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alienYellow_climb2.png
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alienYellow_duck.png
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1024
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alienYellow_front.png
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1280
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alienYellow_hit.png
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1536
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alienYellow_jump.png
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1792
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alienYellow_stand.png
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alienYellow_swim1.png
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alienYellow_swim2.png
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alienYellow_walk1.png
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alienYellow_walk2.png
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1024
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

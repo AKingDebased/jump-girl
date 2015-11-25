@@ -14,7 +14,7 @@ public class MoveBackground : MonoBehaviour {
 		Debug.Log ("resetting");
 	}
 
-	void Update(){
-		transform.position += Vector3.left * Time.deltaTime * BackgroundManager.bgSpeed;
-	}
+//	void Update(){
+//		transform.position += Vector3.left * Time.deltaTime * BackgroundManager.bgSpeed;
+//	}
 }
