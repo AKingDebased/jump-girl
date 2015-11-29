@@ -3,7 +3,11 @@ using System.Collections;
 
 public class MovePlatform : MonoBehaviour {
 	
-	void Update(){
+    void Update(){
 		transform.position += Vector3.left * Time.deltaTime * PlatformManager.platformSpeed;
+	}
+
+	public void Despawn(){
+		gameObject.SetActive(false);
 	}
 }

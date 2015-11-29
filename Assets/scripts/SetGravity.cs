@@ -7,9 +7,5 @@ public class SetGravity : MonoBehaviour {
 
 	void Start () {
 		Physics2D.gravity = new Vector3(0, -strength, 0);
-		Debug.Log (Physics.gravity);
-	
 	}
-	
-
 }

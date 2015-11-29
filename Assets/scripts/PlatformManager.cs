@@ -3,16 +3,27 @@ using System.Collections.Generic;
 
 public class PlatformManager : MonoBehaviour {
 
-	public static float platformSpeed = 2.5f;
+	public static float platformSpeed = 3.5f;
 	public Transform spawn;
 	public GameObject[] platforms;
+	public List<GameObject> pooledPlatforms;
+	public float spawnTime = 1.0f;
 
 	private GameObject platformContainer;
-	public List<GameObject> pooledPlatforms;
+	private float timer = 0.0f;
 
 	void Awake(){
 		platformContainer = GameObject.Find ("platforms");
 		CreatePool ();
+	}
+
+	void Update(){
+		timer += Time.deltaTime;
+
+		if(timer >= spawnTime){
+			SpawnPlatform();
+			timer = 0.0f;
+		}
 	}
 
 	public void SpawnPlatform(){
