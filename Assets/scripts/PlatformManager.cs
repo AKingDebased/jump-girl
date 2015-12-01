@@ -16,15 +16,15 @@ public class PlatformManager : MonoBehaviour {
 		platformContainer = GameObject.Find ("platforms");
 		CreatePool ();
 	}
-
-	void Update(){
-		timer += Time.deltaTime;
-
-		if(timer >= spawnTime){
-			SpawnPlatform();
-			timer = 0.0f;
-		}
-	}
+//
+//	void Update(){
+//		timer += Time.deltaTime;
+//
+//		if(timer >= spawnTime){
+//			SpawnPlatform();
+//			timer = 0.0f;
+//		}
+//	}
 
 	public void SpawnPlatform(){
 		GameObject randPlatform = GetRandomPlatform();
