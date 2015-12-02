@@ -7,10 +7,8 @@ public class PlatformManager : MonoBehaviour {
 	public Transform spawn;
 	public GameObject[] platforms;
 	public List<GameObject> pooledPlatforms;
-	public float spawnTime = 1.0f;
 
 	private GameObject platformContainer;
-	private float timer = 0.0f;
 
 	void Awake(){
 		platformContainer = GameObject.Find ("platforms");
@@ -27,7 +25,7 @@ public class PlatformManager : MonoBehaviour {
 //	}
 
 	public void SpawnPlatform(){
-		GameObject randPlatform = GetRandomPlatform();
+		GameObject randPlatform = GetPlatform();
 
 		randPlatform.transform.position = spawn.position;
 
@@ -42,11 +40,10 @@ public class PlatformManager : MonoBehaviour {
 		}
 	}
 
-	GameObject GetRandomPlatform(){
-		int randNum = Random.Range (0,3);
+	GameObject GetPlatform(){
 
 		for(int i = 0; i < pooledPlatforms.Count; i++){
-			if(!pooledPlatforms[i].activeInHierarchy && i == randNum){
+			if(!pooledPlatforms[i].activeInHierarchy){
 				pooledPlatforms[i].SetActive(true);
 				return pooledPlatforms[i];
 			}

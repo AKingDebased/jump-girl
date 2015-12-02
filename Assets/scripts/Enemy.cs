@@ -6,13 +6,12 @@ public class Enemy : MonoBehaviour {
 	
 	private Renderer childRenderer;
 	private GameObject enemyManager;
-	private bool becameVisible;
+	private bool becameVisible = false;
 
 	void Awake(){
 		spawnOffset = new Vector3(transform.position.x,-1.0f,transform.position.z);
 		childRenderer = transform.GetChild (0).GetComponent<Renderer>();
 		enemyManager = GameObject.Find ("enemy manager");
-		becameVisible = false;
 	}
 	
 	void Update () {
@@ -24,8 +23,8 @@ public class Enemy : MonoBehaviour {
 
 		if(!childRenderer.isVisible && becameVisible){
 			gameObject.SetActive(false);
-			becameVisible = false;
-			enemyManager.SendMessage ("SpawnEnemy");
+			becameVisible = false; 
+			enemyManager.SendMessage ("SpawnEnemy"); //this has gotta go
 		}
 	}
 }
