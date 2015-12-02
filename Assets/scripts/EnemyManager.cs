@@ -6,17 +6,20 @@ public class EnemyManager : MonoBehaviour {
 	public GameObject[] enemies;
 	public Transform spawnPoint;
 	public List<GameObject> pooledEnemies;
+	public static float enemySpeed = 3.0f;
 
 	private GameObject enemyContainer;
 
 	void Awake(){
+		pooledEnemies = new List<GameObject>();
 		enemyContainer = GameObject.Find ("enemies");
 		CreatePool ();
 		SpawnEnemy ();
 	}
+	
 
 	public void SpawnEnemy(){
-		GameObject enemy = GetPooledEnemyAtRandom ();
+		GameObject enemy = GetPooledEnemy();
 		enemy.transform.position = spawnPoint.position;
 		enemy.SetActive(true);
 	}
@@ -30,11 +33,11 @@ public class EnemyManager : MonoBehaviour {
 		}
 	}
 
-	GameObject GetPooledEnemyAtRandom(){
-		int randNum = Random.Range(0,3);
+	public GameObject GetPooledEnemy(){
+		//int randNum = Random.Range(0,3);
 
 		for(int i = 0; i < pooledEnemies.Count; i++){
-			if(!pooledEnemies[i].activeInHierarchy && i == randNum){
+			if(!pooledEnemies[i].activeInHierarchy){
 				return pooledEnemies[i];
 			}
 		}
