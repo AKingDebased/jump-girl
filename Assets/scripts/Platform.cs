@@ -2,6 +2,7 @@
 using System.Collections;
 
 public class Platform : MonoBehaviour {
+	
 	private BoxCollider2D collider;
 	private Vector3 convertedWidth;
 
@@ -23,4 +24,6 @@ public class Platform : MonoBehaviour {
 	public void Despawn(){
 		gameObject.SetActive(false);
 	}
+
+
 }

@@ -5,6 +5,8 @@ public class Player : MonoBehaviour {
 
 	public float jumpPower = 1.0f;
 	public LayerMask groundLayer;
+	public Transform groundCheck;
+	public float groundCheckRadius = 1.0f;
 	
 	private Rigidbody2D rigidBody;
 	private bool isGrounded;
@@ -18,13 +20,16 @@ public class Player : MonoBehaviour {
 	}
 
 	void Update(){
-		isGrounded = Physics2D.IsTouchingLayers(collider,groundLayer);
+		isGrounded = Physics2D.OverlapCircle(groundCheck.position,groundCheckRadius,groundLayer);
 		anim.SetBool("isGrounded",isGrounded);
-	}
 
-	void FixedUpdate () {
 		if(Input.GetKeyDown("space") && isGrounded){
 			rigidBody.velocity = new Vector2(rigidBody.velocity.x,jumpPower);
 		}
+	}
+
+	void OnDrawGizmos() {
+		Gizmos.color = Color.yellow;
+		Gizmos.DrawSphere(groundCheck.position, groundCheckRadius);
 	}
 }
