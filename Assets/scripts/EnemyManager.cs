@@ -19,7 +19,7 @@ public class EnemyManager : MonoBehaviour {
 	
 
 	public void SpawnEnemy(){
-		GameObject enemy = GetPooledEnemy();
+		GameObject enemy = GetRandomPooledEnemy();
 		enemy.transform.position = spawnPoint.position;
 		enemy.SetActive(true);
 	}
@@ -33,11 +33,11 @@ public class EnemyManager : MonoBehaviour {
 		}
 	}
 
-	public GameObject GetPooledEnemy(){
-		//int randNum = Random.Range(0,3);
+	public GameObject GetRandomPooledEnemy(){
+		int randNum = Random.Range(0,2);
 
 		for(int i = 0; i < pooledEnemies.Count; i++){
-			if(!pooledEnemies[i].activeInHierarchy){
+			if(!pooledEnemies[i].activeInHierarchy && i == randNum){
 				return pooledEnemies[i];
 			}
 		}
