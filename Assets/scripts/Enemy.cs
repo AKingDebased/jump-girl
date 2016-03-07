@@ -10,8 +10,14 @@ public class Enemy : MonoBehaviour {
 
 	void Awake(){
 		spawnOffset = new Vector3(transform.position.x,-1.0f,transform.position.z);
-		childRenderer = transform.GetChild (0).GetComponent<Renderer>();
 		enemyManager = GameObject.Find ("enemy manager");
+
+		//kludgy
+		if(gameObject.tag == "animated"){
+			childRenderer = GetComponentInChildren<Renderer>();
+		} else {
+			childRenderer = GetComponent<Renderer>();
+		}
 	}
 	
 	void Update () {
@@ -25,6 +31,7 @@ public class Enemy : MonoBehaviour {
 			gameObject.SetActive(false);
 			becameVisible = false; 
 			enemyManager.SendMessage ("SpawnEnemy"); //this has gotta go
+			ScoreManager.IncreaseScore(1); //should use an event instead
 		}
 	}
 }

@@ -6,7 +6,7 @@ public class EnemyManager : MonoBehaviour {
 	public GameObject[] enemies;
 	public Transform spawnPoint;
 	public List<GameObject> pooledEnemies;
-	public static float enemySpeed = 3.0f;
+	public static float enemySpeed = 4.5f;
 
 	private GameObject enemyContainer;
 

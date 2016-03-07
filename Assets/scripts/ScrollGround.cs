@@ -15,6 +15,5 @@ public class ScrollGround : MonoBehaviour {
 		Vector2 offset = new Vector2(Time.deltaTime / speed,0);
 
 		renderer.material.mainTextureOffset += offset;
-
 	}
 }
