@@ -34,7 +34,7 @@ public class EnemyManager : MonoBehaviour {
 	}
 
 	public GameObject GetRandomPooledEnemy(){
-		int randNum = Random.Range(0,2);
+		int randNum = Random.Range(0,pooledEnemies.Count - 1);
 
 		for(int i = 0; i < pooledEnemies.Count; i++){
 			if(!pooledEnemies[i].activeInHierarchy && i == randNum){

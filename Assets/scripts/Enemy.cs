@@ -9,15 +9,8 @@ public class Enemy : MonoBehaviour {
 	private bool becameVisible = false;
 
 	void Awake(){
-		spawnOffset = new Vector3(transform.position.x,-1.0f,transform.position.z);
-		enemyManager = GameObject.Find ("enemy manager");
-
-		//kludgy
-		if(gameObject.tag == "animated"){
-			childRenderer = GetComponentInChildren<Renderer>();
-		} else {
-			childRenderer = GetComponent<Renderer>();
-		}
+		childRenderer = GetComponentInChildren<Renderer>();
+	
 	}
 	
 	void Update () {
@@ -30,7 +23,6 @@ public class Enemy : MonoBehaviour {
 		if(!childRenderer.isVisible && becameVisible){
 			gameObject.SetActive(false);
 			becameVisible = false; 
-			enemyManager.SendMessage ("SpawnEnemy"); //this has gotta go
 			ScoreManager.IncreaseScore(1); //should use an event instead
 		}
 	}
